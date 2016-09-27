@@ -37,3 +37,9 @@ config.N_FEATS = 256
 config.N_STACK = 1
 config.SEED = 0
 config.N_EPOCHS = 100
+config.PART_NAMES = ['RAnk', 'RKne', 'RHip',
+                     'LHip', 'LKne', 'LAnk',
+                     'Pelv', 'Thrx', 'Neck', 'Head',
+                     'RWri', 'RElb', 'RSho',
+                     'LSho', 'LElb', 'LWri']
+config.THRESHOLD = 20
